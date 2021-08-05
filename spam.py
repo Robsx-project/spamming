@@ -1,7 +1,7 @@
 import pyautogui, time
-kata = "bot spam by roby"
+word = "your text to spam"
 for i in range(9999):
-	pyautogui.typewrite(kata)
+	pyautogui.typewrite(word)
 	time.sleep(1)
 	pyautogui.press("enter")
 
